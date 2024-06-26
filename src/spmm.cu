@@ -35,6 +35,7 @@
 #include <c10/cuda/CUDACachingAllocator.h>
 #include <torch/extension.h>
 #include <torch/script.h>
+#include <thrust/execution_policy.h>
 
 namespace minkowski {
 
