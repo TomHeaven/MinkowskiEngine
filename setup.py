@@ -216,7 +216,7 @@ else:
             \nfor more information, please visit https://github.com/NVIDIA/MinkowskiEngine/wiki/Installation'
             )
     except:
-        libraries += "blas"
+        libraries += "openblas"
 
 print(f"\nUsing BLAS={BLAS}")
 
